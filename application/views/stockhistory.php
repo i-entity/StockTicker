@@ -1,6 +1,5 @@
 <div class = "box">
     <p> hello </p>
-    <a href="/index.php/stockhistory"> stock history stuff </a>
 </div>
 <br />
 <div class= "box">
