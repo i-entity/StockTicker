@@ -25,6 +25,14 @@ class StockHistory extends Application {
 		$this->render();
 	}
         
+        function stock($id){
+            $this->data['pagebody'] = 'stock';	// this is the view we want shown
+		
+            $this->data['type'] = $id;
+		
+            $this->render();
+        }
+        
        
 
 }
