@@ -1,13 +1,26 @@
-<div class = "box">
-    <p> Stocks: </p>
-    <ul>
-        <li><a href="/index.php/stockhistory/stock/gold"> Gold </a> </li>
-        <li><a href="/index.php/stockhistory/stock/silver"> Silver </a></li>
-        <li><a href="/index.php/stockhistory/stock/bonds"> Bonds </a></li>
-        <li><a href="/index.php/stockhistory/stock/oil"> Oil </a></li>
-        <li><a href="/index.php/stockhistory/stock/industrials"> Industrials </a></li>
-        <li><a href="/index.php/stockhistory/stock/grain"> Grain </a></li>
-    </ul>
+<div class = "row">
+    <table class="table table-hover">
+    <tbody>
+      <tr>
+          <td><a href="/stockhistory/stock/gold"> Gold </a></td>
+      </tr>
+      <tr>
+          <td><a href="/stockhistory/stock/silver"> Silver </a></td>
+      </tr>
+      <tr>
+          <td><a href="/stockhistory/stock/bonds"> Bonds </a></td>
+      </tr>
+      <tr>
+          <td><a href="/stockhistory/stock/oil"> Oil </a></td>
+      </tr>
+      <tr>
+          <td><a href="/stockhistory/stock/industrials"> Industrials </a></td>
+      </tr>
+      <tr>
+          <td><a href="/stockhistory/stock/grain"> Grain </a></td>
+      </tr>     
+    </tbody>
+  </table>
 </div>
 <br />
 <div class= "box">

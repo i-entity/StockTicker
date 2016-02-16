@@ -17,12 +17,33 @@ if (!defined('APPPATH'))
         <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" type ="text/css" href="../assets/css/style.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 
+        crossorigin="anonymous"></link>
     </head>
     <body>
-        <div class="container">
-                      
+        <div class="container">   
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                        </button>
+                        <a class="navbar-brand" href="#">Menu</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="/index.php">Home</a></li>
+                        <li><a href="/stockhistory">History</a></li>
+                        <li><a href="#">Portfolio</a></li> 
+                    </ul>                  
+                </div>
+            </nav>
             <div id="content">
-                <h1>{title}</h1>
+                <div class="jumbotron">
+                    <h1>{title}</h1>
+                </div>               
                 {content}
             </div>
             
