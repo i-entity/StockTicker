@@ -1,6 +1,5 @@
 <div class = "box">
     <p> {type} </p>
-    
 </div>
 <br />
 <div class= "box">
