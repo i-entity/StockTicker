@@ -21,7 +21,15 @@ class Welcome extends Application {
 
 	function index()
 	{
+
+		if ($_POST['username'] != null) {
+
+			$_SESSION["username"] = $_POST['username'];
+		}
+
+
 		$this->data['pagebody'] = 'homepage';	// this is the view we want shown
+		$this->data['username'] = $_SESSION['username'];
 		// build the list of authors, to pass on to our view
 		
 		$this->render();
