@@ -36,7 +36,7 @@ if (!defined('APPPATH'))
                     <ul class="nav navbar-nav">
                         <li><a href="/index.php">Home</a></li>
                         <li><a href="/stockhistory">History</a></li>
-                        <li><a href="#">Portfolio</a></li> 
+                        <li><a href="/playerprofile">Portfolio</a></li>
                     </ul>
                 </div>
             </nav>
