@@ -37,7 +37,7 @@ if (!defined('APPPATH'))
                         <li><a href="/index.php">Home</a></li>
                         <li><a href="/stockhistory">History</a></li>
                         <li><a href="#">Portfolio</a></li> 
-                    </ul>                  
+                    </ul>
                 </div>
             </nav>
             <div id="content">
