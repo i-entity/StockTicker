@@ -26,6 +26,7 @@ class Application extends CI_Controller {
 		$this->data['title'] = 'Stock Ticker';	// our default title
 		$this->errors = array();
 		$this->data['pageTitle'] = 'welcome';   // our default page
+		$this->load->library('session');
 	}
 
 	/**
