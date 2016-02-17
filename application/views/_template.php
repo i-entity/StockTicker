@@ -31,7 +31,7 @@ if (!defined('APPPATH'))
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span> 
                         </button>
-                        <a class="navbar-brand" href="#">Menu</a>
+                        <a class="navbar-brand">Menu</a>
                     </div>
                     <ul class="nav navbar-nav">
                         <li><a href="/index.php">Home</a></li>
