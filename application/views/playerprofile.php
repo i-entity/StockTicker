@@ -1,7 +1,7 @@
 <h1>{player}</h1>
 
 <div>
-    <form action="/index.php/playerprofile" method="post">
+    <form action="/playerprofile" method="post">
         Players <select name="player">
             {player_array}
             <option value="{Player}">{Player}</option>
