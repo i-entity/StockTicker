@@ -8,9 +8,7 @@
     </tr>
     {stock_array}    
 
-    <tr>
-        
-        
+    <tr>             
         <td><a href="/stockhistory/stock/{Name}">{Code}</a></td>
         <td><a href="/stockhistory/stock/{Name}">{Name}</a></td>
         <td><a href="/stockhistory/stock/{Name}">{Category}</a></td>
