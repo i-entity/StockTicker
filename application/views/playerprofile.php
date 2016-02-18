@@ -1,12 +1,11 @@
 <h1>{player}</h1>
 
 <div>
-    <form action="/playerprofile" method="post">
+    <form action="/index.php/playerprofile" method="post">
         Players <select name="player">
-            <option value="player1">Player1</option>
-            <option value="player2">Player2</option>
-            <option value="player3">Player3</option>
-            <option value="player4">Player4</option>
+            {player_array}
+            <option value="{Player}">{Player}</option>
+            {/player_array}
         </select>
         <input type="submit" value="Submit"/>
     </form>
@@ -16,11 +15,15 @@
 <div id="activity">
 Purchases:
     <ul>
-        <li></li>
+        {player_transactions}
+        <li>{Stock}: {Trans}: {Quantity}</li>
+        {/player_transactions}
     </ul>
 Sales:
     <ul>
-        <li></li>
+        {player_sales}
+        <li>{Stock}: {Trans}: {Quantity}</li>
+        {/player_sales}
     </ul>
 </div>
 

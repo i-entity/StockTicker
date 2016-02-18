@@ -20,5 +20,26 @@ class Stock_model extends CI_Model {
         $query = $this->db->get('stocks');
         return $query->result_array();
     }
+    
+    function get_players(){
+        $query = $this->db->get('players');
+        return $query->result_array();
+    }
+    
+    function get_transactions(){
+        $query = $this->db->get('transactions');
+        return $query->result_array();
+    }
+    
+    function get_movements(){
+        $query = $this->db->get('movements');
+        return $query->result_array();
+    }
+    
+    function get_player_transactions($id, $type){
+        $sql = "SELECT * FROM transactions WHERE Player= ? AND Trans= ? ;";
+        $query = $this->db->query($sql, array($id, $type));
+        return $query->result_array();
+    }
 
 }
