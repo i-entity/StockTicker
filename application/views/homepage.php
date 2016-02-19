@@ -12,14 +12,12 @@
                     </tr>
                 </thead>
                 <tbody>
+                    {stock_array}
                     <tr>
-                        <td><a href="/stockhistory/stock/gold">Gold</a></td>
-                        <td>$1.00</td>
+                        <td><a href="/stockhistory/stock/{Code}">{Name}</a></td>
+                        <td>{Value}</td>
                     </tr>
-                    <tr>
-                        <td><a href="/stockhistory/stock/silver">Silver</a></td>
-                        <td>$2.00</td>
-                    </tr>
+                    {/stock_array}
                 </tbody>
             </table>
             <!--end of table-->
@@ -34,21 +32,18 @@
                 <thead>
                     <tr>
                         <th>Name</th>
-                        <th>Equity</th>
+                        
                         <th>Cash</th>
                     </tr>
                 </thead>
                 <tbody>
+                    {player_array}
                     <tr>
-                        <td><a href="/stockhistory/stock/gold">Gold</a></td>
-                        <td>$1.00</td>
-                        <td>$2.00</td>
+                        <td><a href="/playerprofile/player/{Player}">{Player}</a></td>
+                        <td>{Cash}</td>
+                        
                     </tr>
-                    <tr>
-                        <td><a href="/stockhistory/stock/silver">Silver</a></td>
-                        <td>$3.00</td>
-                        <td>$4.00</td>
-                    </tr>
+                    {/player_array}
                 </tbody>
             </table>
             <!--end of table-->
