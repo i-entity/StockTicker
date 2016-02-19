@@ -9,10 +9,10 @@
     {stock_array}    
 
     <tr>             
-        <td><a href="/stockhistory/stock/{Name}">{Code}</a></td>
-        <td><a href="/stockhistory/stock/{Name}">{Name}</a></td>
-        <td><a href="/stockhistory/stock/{Name}">{Category}</a></td>
-        <td><a href="/stockhistory/stock/{Name}">{Value}</a></td>
+        <td><a href="/stockhistory/stock/{Code}">{Code}</a></td>
+        <td><a href="/stockhistory/stock/{Code}">{Name}</a></td>
+        <td><a href="/stockhistory/stock/{Code}">{Category}</a></td>
+        <td><a href="/stockhistory/stock/{Code}">{Value}</a></td>
     </tr>
 
 
